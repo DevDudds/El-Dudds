@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    gap: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border: 1px gray solid;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+.curso {
+    height: 250px;
+    background-color: rgb(73, 170, 255);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#info {
+    background-color: red;
+}
+
+#linux {
+    background-color: orange;
+}
+
+#roblox {
+    background-color: black;
+}
